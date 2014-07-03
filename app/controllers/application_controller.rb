@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
   		return 'http://local.mikeatlas.com:5001'
   	end
 
-  	return 'http://realtime-server-demo.herokuapp.com'
+  	return ENV['REALTIME_SERVER_URL'] || 'http://realtime-server-demo.herokuapp.com'
   end
 
 end
