@@ -12,7 +12,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'puma'
-gem 'realtime', :path => "/Users/Pro/mike/realtime-rails"
+gem 'realtime'
 gem 'pg'
 gem 'redis'
 gem 'em-zeromq'
