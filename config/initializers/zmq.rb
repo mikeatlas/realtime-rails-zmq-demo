@@ -1,0 +1,1 @@
+$zmq_server = ENV['ZMQ_SERVER'] || "tcp://localhost:5556"
